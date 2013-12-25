@@ -1,0 +1,12 @@
+pkgbase = csslint
+	pkgdesc = tool to help point out problems with your CSS code
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://github.com/stubbornella/csslint
+	arch = any
+	license = MIT
+	depends = nodejs
+	provides = nodejs-csslint
+
+pkgname = csslint
+
