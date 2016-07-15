@@ -2,8 +2,8 @@
 
 pkgname=csslint
 _npmname=csslint
-pkgver=0.10.0
-pkgrel=2
+pkgver=1.0.0
+pkgrel=1
 pkgdesc="tool to help point out problems with your CSS code"
 arch=('any')
 makedepends=('npm')
@@ -18,3 +18,4 @@ package() {
 	cd $_npmdir
 	npm install --user root -g --prefix "$pkgdir/usr" $_npmname@$pkgver
 }
+
